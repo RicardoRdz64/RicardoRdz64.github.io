@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+
+    padding: 32px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.column_izq {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-left: 100px;
+}
+.column_centro {
+    float: left;
+    width: 30%;
+    height: 80%;
+    padding: 10px;
+}
+.column_der {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.centro {
+    position: relative;
+    margin-left: 42%;
+}
